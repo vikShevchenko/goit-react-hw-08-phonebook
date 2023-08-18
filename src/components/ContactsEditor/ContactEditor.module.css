@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.contactForm{
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.215);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.searchButton{
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #e4e4e4
+}
+.searchButton:hover{
+    background-color: rgba(0, 0, 0, 0.141);
+}
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
